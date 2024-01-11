@@ -46,7 +46,7 @@ const Signup = () => {
           <div style={{ color: '#FFF', fontFamily: 'Montserrat', fontSize: '24px', fontWeight: 600, textAlign: 'center', marginBottom: '20px' }}>
             Getting Started with VR Creation
           </div>
-          <img src="../Abstraction.png" alt="Abstraction" style={{ width: '100%', marginTop: '20px', transform: 'rotate(-9.253deg)', borderRadius: '8px' }} />
+          <img src="static/images/Abstraction.png" alt="Abstraction" style={{ width: '100%', marginTop: '20px', transform: 'rotate(-9.253deg)', borderRadius: '8px' }} />
         </div>
 
         {/* Right Section */}

@@ -39,7 +39,7 @@ const Login = () => {
           boxShadow: '-4px 4px 26px 0px rgba(75, 100, 119, 0.69), 4px 4px 16px 0px rgba(255, 255, 255, 0.15), 4px 4px 26px 0px rgba(255, 255, 255, 0.37)',
         }}>
           <div>
-            <img src="../sam1.png" alt="" />
+            <img src="static/images/sam1.png" alt="" />
           </div>
           <div style={{
             width: '70%',
@@ -60,7 +60,7 @@ const Login = () => {
           <div style={{
             
           }}>
-            <img src="../Abstraction.png" alt="" style={{
+            <img src="static/images/Abstraction.png" alt="" style={{
               transform: 'rotate(-9.253deg)',
               flexShrink: 0,
               width:'105%',
