@@ -87,9 +87,9 @@ const Signup = () => {
           >
             Create Account
           </Button>
-          <p style={{ color: '#333', marginTop: '20px', fontSize: '16px', textAlign: 'center' }}>
-            Already have an account? <a href="/login" style={{ color: '#4CAF50', textDecoration: 'underline' }}>Log In</a>.
-          </p>
+          <button onClick={()=>{
+            navigate('/login')
+          }}>Already have an account?Login</button>
         </div>
       </div>
     </div>

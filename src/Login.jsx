@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const backendURL = 'https://backend-daily.onrender.com';
 
-const Login = () => {
+const Login = () => { 
   const navigate = useNavigate();
     const [email, setEmail] = React.useState('');
     const [name, setName] = React.useState('');
@@ -185,9 +185,9 @@ const Login = () => {
         >
             Login
           </button>
-          <p style={{ color: '#000', marginTop: '10px', marginLeft:'16%' }}>
-          Don't have an account? <a href="/signup" style={{ color: '#1F485B', textDecoration: 'underline' }}>Sign Up</a>.
-    </p>
+          <button onClick={()=>{
+            navigate('/signup')
+          }}>Don't have an account?Signup</button>
 
         </div>
 
